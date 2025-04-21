@@ -1,0 +1,91 @@
+#section_1
+{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: auto;
+    height: 54vw;
+    overflow: hidden;
+}
+#section_1 > video
+{
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left:0vw;
+}
+
+/* #section_1_vertical_line */
+/* #section_1_vertical_line */
+/* #section_1_vertical_line */
+/* #section_1_vertical_line */
+
+#section_1_vertical_line
+{
+    width: .0vw;
+    background: var(--gold_over_dark);
+    position: absolute;
+    left: 70%;
+    z-index: 10;
+    transition: all ease 5000ms;
+    bottom: 0;
+}
+
+#section_1 > .section_1_h2_hidden
+{
+    position: absolute;
+    left: 4vw;
+    bottom:2vw;
+    color: var(--first);
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: f4;
+    opacity: 0;
+}
+
+#section_1 > .section_1_h2_visible
+{
+    position: absolute;
+    left: 4vw;
+    bottom:2vw;
+    color: var(--first);
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: f4;
+    opacity: 1;
+    transition: all ease 3000ms;
+}
+#section_1 > .section_1_h2_visible > span
+{
+    color: var(--gold_over_dark);
+    font-weight: 800;
+}
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+
+/* Tablet */
+/* Tablet */
+/* Tablet */
+/* Tablet */
+    
+@media only screen and (max-width: 82.1vw) 
+{  
+
+}
+    
+/* Mobile */
+/* Mobile */
+/* Mobile */
+/* Mobile */
+    
+@media only screen and (max-width: 439px)  
+{ 
+
+}

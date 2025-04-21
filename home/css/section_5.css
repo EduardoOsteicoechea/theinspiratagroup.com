@@ -1,0 +1,76 @@
+#section_5
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0vw 0 8vw 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+#section_5 > form
+{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    gap: .25vw;
+    padding: 0;
+    margin: 0 auto;
+    width: 35%;
+}
+
+#section_5 > form > *
+{
+    width: 100%;
+    font-family: inherit;
+    border-radius: 0;
+    border: solid .1vw #aaa;
+    padding: .7vw 1vw;
+    font-size: 1vw;
+    background: #fafafa;
+    border-radius: .25vw;
+}
+#section_5 > form > *::placeholder
+{
+    color: var(--third);
+}
+#section_5 > form > h2
+{
+    border: none;
+    font-size: 1.7vw;
+    font-weight: 600;
+    align-self: start;
+    justify-self: self-start;
+    margin: 0 auto 0 0;
+    text-align: left;
+    width: 100%;
+    padding: 0;
+    background: none;
+}
+
+#section_5 > form > label
+{
+    background: none;
+    border: none;
+    padding: .75vw 0vw .15vw 0;
+}
+
+#section_5 > form > select,textarea
+{
+    resize: none;
+    color: var(--third);
+}
+#section_5 > form > textarea
+{
+    height: 8vw;
+}
+#section_5 > form > *:last-child
+{
+    background: var(--gold_over_clear);
+    border: none;
+    color: var(--first);
+    width: 50%;
+    align-self: end;
+    margin-top: 1vw;
+}

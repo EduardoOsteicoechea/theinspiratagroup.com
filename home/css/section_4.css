@@ -1,0 +1,134 @@
+#section_4
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3vw 0 8vw 0;
+    overflow: hidden;
+    gap: 3vw;
+}
+#section_4 > h2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vw;
+    padding: 1vw 4vw;
+    width: 4vw;
+    text-align: center;
+    border-bottom: solid .4vw var(--gold_over_clear);
+}
+
+.section_4_vertical_container_container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    gap: 1vw;
+}
+
+/* .section_4_vertical_container */
+/* .section_4_vertical_container */
+/* .section_4_vertical_container */
+/* .section_4_vertical_container */
+
+.section_4_vertical_container
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow: hidden;
+    width: 30vw;
+    height: 100%;
+    gap: 1vw;
+}
+
+/* .card_project */
+/* .card_project */
+/* .card_project */
+/* .card_project */
+
+.card_project
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    max-height: 60%;
+    height: 25vw;
+    width: 100%;
+    align-self: flex-start;
+}
+.card_project_background
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    width: 200%;
+    height: 30vw;
+}
+.card_project_background > img
+{
+    width: 100%;
+}
+.card_project_information_container_hidden
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: absolute;
+    color: var(--first);
+    padding: 1vw;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease 1000ms;
+    background: var(--background_medium);
+}
+.card_project_information_container_visible
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: absolute;
+    color: var(--first);
+    padding: 1vw;
+    width: 50%;
+    height: 50%;
+    opacity: 1;
+    transition: all ease 1000ms;
+    background: var(--background_medium);
+}
+.card_project_information_container_visible > *
+{
+    color: var(--first);
+}
+.card_project_information_container_visible > h3
+{
+    font-size: 1vw;
+}
+.card_project_information_container_visible > h4
+{
+    
+    font-size: 1vw;
+}
+.card_project_information_container_visible > p
+{
+    
+    font-size: .8vw;
+}

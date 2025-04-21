@@ -1,0 +1,78 @@
+@font-face 
+{
+    font-family: f1;
+    src: url(../font/Almarai/Almarai-Light.ttf);
+}
+@font-face 
+{
+    font-family: f4;
+    src: url(../font/Noto_Sans_JP/NotoSansJP-VariableFont_wght.ttf);
+}
+@font-face 
+{
+    font-family: f5;
+    src: url(../font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+:root
+{
+    font-size: 16px;
+    font-weight: 300;
+    font-family:f4;
+    letter-spacing: .1vw;
+    --first:#fff;
+    --second:#000;
+    --third:#000;
+    --third_clear:#ccc;
+    --gold_over_clear:#c4a747;
+    --gold_over_dark:#d4af37;
+    --background_clear: rgba(0,0,0,.325);
+    --background_medium: rgba(0,0,0,.5);
+    scroll-behavior: smooth;
+    --shadow_max : 0px 10px 15px rgba(0,0,0,0.1);
+    --shadow_max_top : 0px -10px 15px rgba(0,0,0,0.1);
+    --fw_1:400;
+    --fw_2:600;
+    --fw_3:800;
+}
+*
+{
+    margin: 0;
+    font-size: inherit;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative; 
+    color: var(--third);
+    text-transform: uppercase;
+}
+body
+{
+    overflow-x: hidden;
+}
+main
+{
+    min-height: 90vh;
+}
+a
+{
+    text-decoration: none;
+    font-size: .8vw;
+}
+/* Tablet */
+/* Tablet */
+/* Tablet */
+/* Tablet */
+    
+@media only screen and (max-width: 821px) 
+{  
+
+}
+    
+/* Mobile */
+/* Mobile */
+/* Mobile */
+/* Mobile */
+    
+@media only screen and (max-width: 439px)  
+{ 
+
+}

@@ -1,0 +1,49 @@
+#section_6
+{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: auto;
+    height: 50vw;
+    bottom: 0;
+    overflow: hidden;
+    /* border-top: solid .1vw var(--second); */
+}
+#section_6 > #section_6_background
+{
+    display: flex;
+    flex-direction: column;
+    width: 120vw;
+    left: -10vw;
+    top: -10vw;
+    margin: auto;
+}
+
+#section_6 > img
+{
+    width: 150%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+
+
+/* Tablet */
+/* Tablet */
+/* Tablet */
+/* Tablet */
+    
+@media only screen and (max-width: 821px) 
+{  
+
+}
+    
+/* Mobile */
+/* Mobile */
+/* Mobile */
+/* Mobile */
+    
+@media only screen and (max-width: 439px)  
+{ 
+
+}
